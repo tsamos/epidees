@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800&display=swap" rel="stylesheet">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Personal  Styling -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Επιγραφές Ιδέα</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+  </head> 
+  <body>
+<!-- ------------- HEADER -------------------->
+    <header class="header" id="header">
+        <nav class="nav container navbar-expand-lg">
+            <a href="#" class="nav__logo navbar-brand ml-3">Epigrafes Idea</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Αρχική
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>Σχετικά με εμάς
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>Η διαδικασία μας
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#testimonial" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i>Η γνώμη σας για εμάς
+                        </a>
+                    </li>
+
+                    
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Επικοινωνία
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- THEME CHANGING BUTTONS -->
+                <i data-mode= "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- ============== MAIN =============== -->
+<main class="main">
+
+    <!-- ------------- HOME -------------------->
+    
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__content grid">
+                    <div class="home__social">
+
+                        <!-- <a href="edw mpainei to link!" target="_blank" class="home__social-icon" id="myBehance">
+                            <i class="uil uil-behance-alt"></i>
+
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-icon" id="myLinkedIn">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-icon" id="myWhatsApp">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-icon" id="myViber">
+                            <i class="uil uil-facebook-f"></i>
+                        </a> -->
+
+                    
+                    </div>
+                </div>
+
+                <div class="home__data">
+                    <small class="home__welcome s-color"> Καλωσήρθατε! </small>
+                    <h1 class="home__title"> Επιγραφές Ιδέα </h1>
+                    <div id="typewriter"></div>
+                    <h3 class="home__subtitle" id="home-bio">Σχεδιάζουμε, κατασκευάζουμε και εγκαθιστούμε ειδικές κατασκευές εσωτερικού και εξωτερικού χώρου, επιγραφές, ολοκληρωμένα συστήματα σήμανσης, in-store και POP displays, custom εφαρμογές, παντός τύπου ψηφιακές εκτυπώσεις. </h3>
+                    <a href="#contact" class="button button--flex">
+                        Επικοινωνία <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <!-- <span class="home__scroll-name"> Scroll Down </span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+                </a>
+            </div>
+        </section>
+
+ <!-- ------------- ABOUT US -------------------->
+ <section class="about section" id="about">
+    <h2 class="section__title">Σχετικα με εμάς</h2>
+    <span class="section__subtitle"> Λίγα λόγια.. </span>
+
+    <div class="about__container container grid">
+        <img src="assets/img/logo.jpg" alt="logo photo" class="about__img">
+
+        <div class="about__data">
+            <p class="about__description" id="home-about"> 
+                Η εταιρεία Επιγραφές Ιδέα, ασχολείται με κάθε μορφή οπτικής επικοινωνίας. Επιγραφές, Έντυπα, Διαφημιστικά.Αναλαμβάνουμε και συνεργαζόμαστε με ιδιώτες και επαγγελματίες για τη διεκπεραίωση κάθε μορφής εργασίας που αφορά την προβολή των επιχειρήσεων. Ανάγλυφα γράμματα, φωτεινά ή μη φωτεινά Ειδικές κατασκευές, Επιγραφές Φωτεινές, Επιγραφές απλές, Μπάνερ, Έντυπα, κάρτες, διαφημιστικά.
+
+            </p>
+        </div>
+
+        <div class="about__info">
+            <div>
+                <span class="about__info-title"> 20+ </span>
+                <span class="about__info-name"> Χρόνια <br> Εμπειρίας </span>
+            </div>
+
+            <div>
+                <span class="about__info-title"> 10+ </span>
+                <span class="about__info-name"> ολοκληρωμένα <br> Έργα </span>
+            </div>
+
+            <div>
+                <span class="about__info-title"> 02+ </span>
+                <span class="about__info-name"> Συνεργαζόμενες <br> Εταιρείες </span>
+            </div>
+        </div>
+
+        <div class="about__buttons">
+            <a href="#portfolio" class="button button--flex">
+                Portfolio  <i class="uil uil-bag"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <!-- START SECTION SERVICES -->
+	<section class="services" id="services">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-md-10 col-lg-8">
+					<div class="header-section">
+						<h2 class="title">Η διαδικασία μας
+                        </h2>
+						<p class="description">Πώς εξυπηρετούμε </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fab fa-think-peaks"></i>
+							</span>
+							<p class="title">Κατανόηση</p>
+							<p class="description">Προσδιορίζουμε τις ανάγκες και απαιτήσεις του πελάτη, μαθαίνουμε για τυχόν υφιστάμενες προδιαγραφές branding και σχεδιασμού, και αποσαφηνίζουμε τους στόχους κάθε έργου.
+
+                            </p>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-search"></i>
+							</span>
+							<p class="title">Έρευνα</p>
+							<p class="description">Μελετάμε τα δεδομένα του project, ερευνούμε τα απαραίτητα υλικά και τους πιθανούς προμηθευτές, και επιλέγουμε τις καταλληλότερες εφαρμογές.
+
+                                Εστιάζουμε πάντα στη διασφάλιση της ποιότητας, της βέλτιστης χρήσης και αντοχής των έργων μας.</p>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-pen-fancy"></i>
+							</span>
+							<p class="title">Πρόταση</p>
+							<p class="description">Δουλεύουμε πάνω σε υφιστάμενα σχέδια ή δημιουργούμε καινούρια κατά περίπτωση, ενσωματώνοντας πάντα την οπτική του πελάτη.
+
+                                Καταθέτουμε ολοκληρωμένες προτάσεις που διασφαλίζουν το μέγιστο αντίκτυπο στο budget του πελάτη.
+                                
+                                Είμαστε πάντα ανοιχτοί να συζητήσουμε εναλλακτικές λύσεις, για να επιτευχθεί το καλύτερο αποτέλεσμα σε κάθε περίπτωση.</p>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fas fa-check-double"></i>
+							</span>
+							<p class="title">Υλοποίηση & Παράδοση</p>
+							<p class="description">Οι διαδικασίες μας έχουν πιστοποίηση ποιότητας EN ISO 9001:2008.
+
+                                Χρησιμοποιούμε μόνο υλικά εγκεκριμένα από διεθνείς οργανισμούς και η παραγωγή γίνεται βάσει συμφωνημένων προδιαγραφών.
+                                
+                                Κατά τη διαδικασία παραγωγής, είμαστε δημιουργικοί και ευέλικτοι στην επίλυση ζητημάτων.
+                                
+                                Η χρήση υπερσύγχρονου εξοπλισμού διασφαλίζει ότι κάθε έργο υλοποιείται έγκαιρα και όπως έχει συμφωνηθεί.
+                                
+                                Με ιδιόκτητο στόλο οχημάτων και ειδικευμένους τεχνικούς παρέχουμε πλήρεις υπηρεσίες εγκατάστασης και η εμπειρία μας εγγυάται την επιτυχή επίλυση οποιουδήποτε τεχνικού ζητήματος</p>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				<!-- / End Single Service -->
+				<!-- Single Service -->
+				<div class="col-md-6 col-lg-4">
+					<div class="single-service">
+						<div class="content">
+							<span class="icon">
+								<i class="fab fa-autoprefixer"></i>
+							</span>
+							<p class="title">Συντήρηση</p>
+							<p class="description">Παρέχουμε εγγύηση στα υλικά που χρησιμοποιούμε και πλήρεις υπηρεσίες συντήρησης και επιδιόρθωσης όπου απαιτείται.
+
+                                Στη διαδικασία μας μπορούμε να ενσωματώσουμε προβλεπόμενες μελλοντικές τροποποιήσεις, καθώς και δυνατότητα ακριβούς επανάληψης εργασιών, π.χ. για αλυσίδες και επιχειρήσεις franchise.</p>
+						</div>
+						<span class="circle-before"></span>
+					</div>
+				</div>
+				
+				
+				<!-- / End Single Service -->
+			</div>
+		</div>
+	</section>
+	<!-- / END SECTION SERVICES -->
+    
+    <section class="skills section" id="skills">
+       
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+
+
+
+
+    <!-- ------------- PORTFOLIO -------------------->
+
+
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle"> Οι πιο πρόσφατες μας δουλειες </span>
+
+        <div class="gallery js-lightbox" data-lightbox-id="lightbox_01" style="margin-bottom: 15px;">
+        <div class="gallery__item">
+            <a href="https://i.ibb.co/0qN3mvJ/17577682-10212376503076657-207571102-n.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.ibb.co/0qN3mvJ/17577682-10212376503076657-207571102-n.jpg" alt="casa kallergi" class="gallery__img" />
+            </a>
+        </div>
+        <div class="gallery__item">
+            <a href="https://i.postimg.cc/Y2yx3c91/17857855-10212514035754888-1586114854-n.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.postimg.cc/Y2yx3c91/17857855-10212514035754888-1586114854-n.jpg" alt="cash desk" class="gallery__img" />
+            </a>
+        </div>
+        <div class="gallery__item">
+            <a href="https://i.postimg.cc/yYgypfg2/17858070-10212514035634885-856189921-n.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.postimg.cc/yYgypfg2/17858070-10212514035634885-856189921-n.jpg" alt="cretan knives" class="gallery__img" />
+            </a>
+        </div>
+        <div class="gallery__item">
+            <a href="https://i.postimg.cc/VLxBxjXv/cretan-renessance-gold.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.postimg.cc/VLxBxjXv/cretan-renessance-gold.jpg" alt="Girl" class="gallery__img" />
+            </a>
+        </div>
+        <div class="gallery__item">
+            <a href="https://i.postimg.cc/K8trxR5N/54517921-1282621105221417-1753440292880515072-n.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.postimg.cc/K8trxR5N/54517921-1282621105221417-1753440292880515072-n.jpg" alt="bourbos" class="gallery__img" />
+            </a>
+        </div>
+        <div class="gallery__item">
+            <a href="https://i.ibb.co/WPzmrt0/97037234-3308303242522819-7396548637129441280-n.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.ibb.co/WPzmrt0/97037234-3308303242522819-7396548637129441280-n.jpg" alt="dali" class="gallery__img" />
+            </a>
+        </div>
+
+        <div class="gallery__item">
+            <a href="https://i.postimg.cc/zf5wB8t1/DSC1828.jpg" target="_blank" class="gallery__link js-lightbox-img-link">
+                <img src="https://i.postimg.cc/zf5wB8t1/DSC1828.jpg" alt="Avra" class="gallery__img" />
+            </a>
+        </div>
+    </div>
+    
+    
+    </div>
+
+
+<!-- ------------- TESTIMONIAL -------------------->
+    
+    
+<section class="about section" id="testimonial">
+    <h2 class="section__title">Η  γνώμη σας για εμάς</h2>
+
+<section class="testimonial text-center">
+    <div class="container">
+
+        <div class="heading white-heading">
+            Εμπειρίες
+        </div>
+        <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+         
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="testimonial4_slide">
+                        <img src="https://i.ibb.co/k0cyHNj/3001764.png" class="img-circle img-responsive" />
+                        <p>Απόλυτη κατάρτιση αυξημένος επαγγελματισμός ότι καλύτερο στο χώρο 5 αστέρια ανεπιφύλαχτα
+                        </p>
+                        <h4>Α.Α</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="https://i.ibb.co/6JYKFxx/3006915.png" class="img-circle img-responsive" /><p>Αξιόπιστοι συνεργάτες. Άψογοι επαγγελματίες.
+                        </p>
+                        <h4>C.P.G.</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="https://i.ibb.co/tBzT5qr/123164.png" class="img-circle img-responsive" />
+                        <p>Σωστοί επαγγελματιες ! Πολύ καλή δουλειά!</p>
+                        <h4>Γιαννης Π.</h4>
+                    </div>
+                </div>
+<!-- ------------- add new review, testimonial -------------------->
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="https://i.ibb.co/b3kJHGc/3006899.png" class="img-circle img-responsive" />
+                        <p>Ιδιαίτερη και προσεγμένη δουλειά.
+                        </p>
+                        <h4>Γιώργος Μ.</h4>
+                    </div>
+                </div>
+<!-- ------------- end review, testimonial -------------------->
+
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="https://i.ibb.co/k0cyHNj/3001764.png" class="img-circle img-responsive" />
+                        <p>Εξαιρετική ποιότητα δουλειάς, με ιδιαίτερη προσοχή στην λεπτομέρεια, και συνέπεια στους χρόνους παράδοσης! Πάνω από όλα όμως, εξαιρετικοί συνεργάτες! 🙂 </p>
+                        <h4>Κατερίνα Σ.</h4>
+                    </div>
+                </div>
+
+                
+
+
+                
+            </div>
+            <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+   <!-- ------------- CONTACT US -------------------->
+   <div class="container"id="contact">
+    <div class="innerwrap">
+    
+        <section class="section1 clearfix">
+            <div class="textcenter">
+                <span class="shtext">Επιγραφές Ιδέα</span>
+                <span class="seperator"></span>
+                <h1>Επικοινωνία</h1>
+            </div>
+        </section>
+    
+        <section class="section2 clearfix">
+            <div class="col2 column1 first">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.243661739375!2d24.014552215253797!3d35.49825278023734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149c7d855ba6ab77%3A0xf03193ca4e87edbb!2zzpXPgM65zrPPgc6xz4bOrc-CIM6ZzrTOrc6xIC0gzprOsc67zrHPhs6sz4TOt8-CIM6TzrnPjs-BzrPOv8-CIC8gzprOsc-Dz4TPgc65zr3OrM66zrcgzpXOuc-Bzq7Ovc63!5e0!3m2!1sel!2sgr!4v1642433222174!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></script>
+            </div>
+            <div class="col2 column2 last">
+                <div class="sec2innercont">
+                    <div class="sec2addr">
+                        <p>Νικ. Πλαστήρα 49, Χανιά, 73300</p>
+                        <p><span class="collig">Τηλέφωνο :</span> 2821045230</p>
+                        <p><span class="collig">Κινητό :</span> 6976039429, 6972312334</p>
+                        <p><span class="collig">Email :</span> epigrafes.idea@gmail.com</p>
+                        
+                    </div>
+                </div>
+                <div class="sec2contactform">
+                    
+                    <form action="https://formsubmit.co/tsamos7@gmail.com" method="POST" >
+                        <div class="clearfix">
+                            <input class="col2 first" type="text" placeholder="Όνομα" required>
+                            <input class="col2 last" type="text" placeholder="Επώνυμο" required>
+                        </div>
+                        <div class="clearfix">
+                            <input  class="col2 first" type="Email" placeholder="Email" required>
+                            <input class="col2 last" type="text" placeholder="Τηλέφωνο Επικοινωνίας">
+                        </div>
+                        <div class="clearfix">
+                            <textarea name="textarea" id="" cols="30" rows="7">Το μήνυμα σας...</textarea>
+                        </div>
+                        <div class="clearfix"><input type="submit" value="Αποστολή"></div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+<!-- ------------- FOOTER -------------------->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+
+                <div>
+                    <h1 class="footer__title"> Epigrafes Idea </h1>
+                    <span class="footer__subtitle"> Όλα αρχίζουν από την ιδέα</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link"> Σχετικά με εμάς</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">  Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link"> Eπικοινωνία</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="" target="_blank" class="footer__social" id="myLinkedIn">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social" id="myInstagram">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social" id="myGithub">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social" id="myFacebook">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social" id="myTwitter">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Epigrafes Idea. 2022</p>
+        </div>
+    </footer>
+  
+
+<!-- ------------- SCROLL TOP -------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+
+
+
+
+
+    <!-- Core -->
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+
+    <!-- Argon JS -->
+    <script src="js/argon-design-system.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Self Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
